@@ -1,0 +1,58 @@
+body{
+    background-color: blueviolet;
+    margin:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form{
+    width:400px;
+    background-color: aliceblue;
+    margin:15vh auto 0 auto;
+    padding:30px
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+#form button{
+    background-color: aquamarine;
+    padding: 4px;
+    margin: 20px 0;
+    width: 100%;
+    font-size: 25px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  
+}
+
+.input-group input{
+    border-radius: 5px;
+    padding:10px;
+    border: 1px solid lightblue
+}
+
+.input-group input:focus{
+    outline: 0;
+}
+
+.input-group .error{
+    color:red;
+    font-size:14px;
+    margin-top: 5px;
+}
+
+.input-group.success input{
+    border: 1px solid green;
+   
+}
+
+.input-group.error input{
+    border:1px solid red;
+}
